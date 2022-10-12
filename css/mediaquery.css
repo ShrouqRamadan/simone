@@ -1,0 +1,361 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+
+    /* navbar */
+    .nav-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nav-container img{
+        width:200px;
+    }
+
+    .navbar ul {
+       margin-top: 10px;
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+
+    /* Know Me More */
+    .parent .aboutme  {
+        font-size: 70px;
+        /* line-height: 171.6; */
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color:#F2F4F4;
+    }
+    .child h2{
+        font-size: 20px;
+        color: #212539;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+
+    }
+
+    .know-contant {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .know-item1 {
+        width: 100%;
+    }
+
+    .know-item2 {
+        width: 100%;
+    }
+
+    /* Numbers */
+    .number-contact {
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .number-items {
+
+        width: 25%;
+
+    }
+    .border-1{
+
+        border-bottom: 1px solid #F2F4F4;
+    }
+.border-0{
+    border-right: 0px;
+}
+    /* serves */
+    .serve-item {
+        width: 100%;
+    }
+
+    /*summary*/
+    .summary-items {
+        width: 100%;
+    }
+
+    /* skills */
+    .skill-item {
+        width: 100%;
+    }
+
+    /* portfolio */
+    .photo-item {
+        width: 100%;
+    }
+
+    .list ul {
+        width: 100%;
+
+    }
+    .order-1{
+        order:1;
+    }
+
+
+    /*  Client Speak */
+    .client1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .client2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    /* get in touch */
+    .touch-contact {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .address {
+        width: 100%;
+        text-align: center;
+    }
+
+    .send {
+        width: 100%;
+    }
+
+    .data {
+        width: 100%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* navbar */
+    .nav-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nav-container img{
+        width:200px;
+    }
+
+    .navbar ul {
+       margin-top: 10px;
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+
+    /* Know Me More */
+    .parent .aboutme  {
+        font-size: 90px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color:#F2F4F4;
+    }
+    .child h2{
+        font-size: 25px;
+        color: #212539;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+
+    }
+
+    .know-contant {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .know-item1 {
+        width: 100%;
+    }
+
+    .know-item2 {
+        width: 100%;
+    }
+
+     /* Numbers */
+     .number-contact {
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .number-items {
+
+        width: 25%;
+
+    }
+    .border-1{
+
+        border-bottom: 1px solid #F2F4F4;
+    }
+.border-0{
+    border-right: 0px;
+}
+    /* serves */
+    .serve-item {
+        width: 100%;
+    }
+
+    /*summary*/
+    .summary-items {
+        width: 100%;
+
+
+    }
+
+    /* skills */
+    .skill-item {
+        width: 100%;
+    }
+
+    /* portfolio */
+    .photo-item {
+        width: 100%;
+    }
+
+    .list ul {
+        width: 100%;
+    }
+/* client  */
+    .client1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .client2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+
+    /* get in touch */
+    .touch-contact {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .address {
+        width: 100%;
+        text-align: center;
+    }
+
+    .send {
+        width: 100%;
+    }
+
+    .data {
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* navbar */
+    .navbar ul {
+        width: 80%;
+    }
+
+    /* Know Me More */
+    .parent .aboutme  {
+        font-size: 95px;
+        /* line-height: 171.6; */
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color:#F2F4F4;
+    }
+    .child h2{
+        font-size: 30px;
+        color: #212539;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+
+    }
+
+    .know-contant {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .know-item1 {
+        width: 100%;
+    }
+
+    .know-item2 {
+        width: 100%;
+    }
+
+
+    /* portfolio */
+    .photo-item {
+        width: 100%;
+    }
+
+    .list ul {
+        width: 100%;
+
+    }
+    /* client  */
+    .client1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .client2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    /* get in touch */
+    .touch-contact {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .address {
+        width: 100%;
+        text-align: center;
+    }
+
+    .send {
+        width: 100%;
+    }
+
+    .data {
+        width: 100%;
+    }
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+  /* navbar */
+  .navbar ul {
+    width: 80%;
+}
+
+}
